@@ -5,7 +5,10 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeSet;
-
+/*
+ * 运行主程序，输入订单的个数N，然后依次输入N个订单，输出收入汇总结果。
+ * 经测试,作业的输 入和输出和题目的测试用例输出严格 一致
+ */
 public class ArenaManager {
 	final private String invalid = new String("Error: the booking is invalid!");
 	final private String success = new String("Success: the booking is accepted!");
@@ -142,7 +145,7 @@ public class ArenaManager {
 		}
 		return success;
 	}
-	
+
 	//程序输出
 	public void outputBooking(int[] count) {
 		System.out.println("\n收入汇总");
