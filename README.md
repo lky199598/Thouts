@@ -268,6 +268,6 @@ public class ArenaManager {
 		a.charge();   //HashMap存储球场收费标准
 		a.inputBooking(); //订单的的输入
 		int count[] = a.incomeSum();// 计算各场地的收入和总收入
-		a.outputBooking(count);		//程序输出
+		a.outputBooking(count);	//程序输出
 	}
 }
