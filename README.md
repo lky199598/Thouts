@@ -142,7 +142,7 @@ public class ArenaManager {
 		}
 		return success;
 	}
-
+	
 	//程序输出
 	public void outputBooking(int[] count) {
 		System.out.println("\n收入汇总");
